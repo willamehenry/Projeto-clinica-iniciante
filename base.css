@@ -1,0 +1,85 @@
+html,
+body {
+    margin: 0;
+}
+
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: #cf9538;
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+
+.menu {
+    width: 15%; 
+    padding: 10px 20px 0px;
+    height: 20px;  
+    padding: 10px; 
+    text-align: center
+}
+
+.header {
+    background-color: #b66d0d;
+    min-height: 150px;
+}
+
+.content {
+    background-color: #eee0cb;
+    min-height: 300px;
+    padding: 20px;
+}
+
+.footer {
+    background-color: #b66d0d;
+
+    min-height: 150px;
+    height: 20px; padding: 10px; text-align: center;
+}
+
+.Logo {
+
+
+    height: 100px;
+    padding: 5px;
+    border-radius: 50%;
+
+}
+
+.icone {
+    border-radius: 50%;
+    background: cadetblue;
+
+}
+
+.nome-clinica{
+
+    color: #444444;
+background: #FFFFFF;
+text-shadow: 1px 0px 1px , 0px 1px 1px , 2px 1px 1px #CCCCCC, 1px 2px 1px , 3px 2px 1px , 2px 3px 1px , 4px 3px 1px , 3px 4px 1px , 5px 4px 1px , 4px 5px 1px , 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+color: #444444;
+background: #FFFFFF;
+background: #b66d0d;
+border: #444444 solid 2px  ;
+border-radius: 50px;
+width:160px;
+background: burlywood;
+margin: 10px;
+}
+.info{
+
+    
+    text-align: right;
+    
+}
